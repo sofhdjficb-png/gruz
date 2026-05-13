@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- noindex — служебная страница, не нужна в поиске -->
+  <meta name="robots" content="noindex, follow">
+  <title>Политика конфиденциальности — [CLIENT_DATA: COMPANY_NAME]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .policy-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 140px 24px 100px;
+    }
+    .policy-wrap h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 900;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    .policy-updated {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 48px;
+    }
+    .policy-wrap h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin: 40px 0 12px;
+      letter-spacing: -0.01em;
+    }
+    .policy-wrap p,
+    .policy-wrap li {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.85;
+      margin-bottom: 12px;
+    }
+    .policy-wrap ul {
+      padding-left: 20px;
+      list-style: disc;
+      margin-bottom: 12px;
+    }
+    .policy-placeholder {
+      background: rgba(212, 13, 13, 0.07);
+      border: 1px dashed rgba(212, 13, 13, 0.35);
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin: 24px 0;
+      font-size: 0.85rem;
+      color: var(--accent);
+      line-height: 1.7;
+    }
+    .policy-placeholder strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+    }
+    .policy-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: color 0.3s;
+      margin-bottom: 48px;
+    }
+    .policy-back:hover { color: var(--accent); }
+  </style>
+</head>
+<body>
+
+  <!-- Минимальный хедер -->
+  <header class="header" role="banner">
+    <div class="container">
+      <div class="header__inner">
+        <a href="index.html" class="header__logo" aria-label="На главную">
+          ИП КУЗНЕЦОВ
+          <span>грузовой автосервис</span>
+        </a>
+        <a href="tel:+79021066092" class="header__phone tel-link" style="margin-left:auto">
+          +7-902-106-60-92
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="policy-wrap">
+
+      <a href="index.html" class="policy-back">← На главную</a>
+
+      <h1>Политика конфиденциальности</h1>
+      <p class="policy-updated">Дата актуализации: [CLIENT_DATA: DATE]</p>
+
+      <!-- ============================================================
+           ВНИМАНИЕ: текст ниже — структурный шаблон.
+           Заполните совместно с юристом перед публикацией сайта.
+           [LEGAL_TEXT_REQUIRED: PRIVACY_POLICY]
+           ============================================================ -->
+
+      <div class="policy-placeholder">
+        <strong>⚠ Заполняется клиентом совместно с юристом</strong>
+        Этот блок — структурный шаблон. Перед публикацией сайта необходимо
+        заполнить полный текст Политики конфиденциальности в соответствии
+        с требованиями ФЗ-152 «О персональных данных».
+        [LEGAL_TEXT_REQUIRED: PRIVACY_POLICY]
+      </div>
+
+      <h2>1. Общие положения</h2>
+      <p>[LEGAL_TEXT_REQUIRED: GENERAL_PROVISIONS]</p>
+
+      <h2>2. Оператор персональных данных</h2>
+      <p>
+        [CLIENT_DATA: COMPANY_FULL_NAME]<br>
+        ОГРНИП: [CLIENT_DATA: OGRN]<br>
+        ИНН: [CLIENT_DATA: INN]<br>
+        Адрес: [CLIENT_DATA: LEGAL_ADDRESS]<br>
+        E-mail: [CLIENT_DATA: EMAIL]<br>
+        Телефон: +7-902-106-60-92
+      </p>
+
+      <h2>3. Какие данные собираются</h2>
+      <p>[LEGAL_TEXT_REQUIRED: DATA_CATEGORIES]</p>
+      <ul>
+        <li>Имя</li>
+        <li>Номер телефона</li>
+        <li>Адрес электронной почты (при наличии)</li>
+        <li>Файлы cookie и технические данные браузера</li>
+      </ul>
+
+      <h2>4. Цели обработки персональных данных</h2>
+      <p>[LEGAL_TEXT_REQUIRED: PROCESSING_PURPOSES]</p>
+
+      <h2>5. Правовое основание обработки</h2>
+      <p>[LEGAL_TEXT_REQUIRED: LEGAL_BASIS]</p>
+
+      <h2>6. Передача данных третьим лицам</h2>
+      <p>[LEGAL_TEXT_REQUIRED: THIRD_PARTY_TRANSFER]</p>
+      <!-- [MANUAL_REVIEW: THIRD_PARTY_DATA_TRANSFER] — указать всех получателей данных -->
+
+      <h2>7. Использование файлов cookie</h2>
+      <p>[LEGAL_TEXT_REQUIRED: COOKIE_POLICY]</p>
+
+      <h2>8. Сроки хранения данных</h2>
+      <p>[LEGAL_TEXT_REQUIRED: RETENTION_PERIODS]</p>
+
+      <h2>9. Права субъекта персональных данных</h2>
+      <p>В соответствии с ФЗ-152 вы имеете право:</p>
+      <ul>
+        <li>получить сведения об обработке ваших данных;</li>
+        <li>требовать уточнения, блокирования или уничтожения данных;</li>
+        <li>отозвать согласие на обработку в любой момент;</li>
+        <li>обжаловать действия оператора в Роскомнадзоре.</li>
+      </ul>
+
+      <h2>10. Контакты</h2>
+      <p>
+        По вопросам обработки персональных данных обращайтесь:<br>
+        E-mail: [CLIENT_DATA: EMAIL]<br>
+        Телефон: <a href="tel:+79021066092" class="tel-link">+7-902-106-60-92</a>
+      </p>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
